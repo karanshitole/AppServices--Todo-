@@ -6,13 +6,17 @@ import { TodoListComponent } from './shared/components/todo-list/todo-list.compo
 import { TodoManageComponent } from './shared/components/todo-manage/todo-manage.component';
 import { TodoFormComponent } from './shared/components/todo-form/todo-form.component';
 import { FormsModule } from '@angular/forms';
+import { StudentFormComponent } from './shared/components/student-form/student-form.component';
+import { StudentTableComponent } from './shared/components/student-table/student-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoListComponent,
     TodoManageComponent,
-    TodoFormComponent
+    TodoFormComponent,
+    StudentFormComponent,
+    StudentTableComponent
   ],
   imports: [
     BrowserModule,
